@@ -15,6 +15,7 @@ public class WeatherDay {
         return day;
     }
 
+    //calculations
     public double getSpread() {
         return maxTemp - minTemp;
     }
