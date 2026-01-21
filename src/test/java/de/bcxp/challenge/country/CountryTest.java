@@ -1,5 +1,6 @@
-package de.bcxp.challenge.country.model;
+package de.bcxp.challenge.country;
 
+import de.bcxp.challenge.country.model.Country;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
