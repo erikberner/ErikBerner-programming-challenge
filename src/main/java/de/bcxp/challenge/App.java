@@ -17,7 +17,6 @@ public final class App {
         // --- TASK 1: Weather ---
 
         // 1. SETUP
-        // Wir übergeben einfach eine neue Instanz des Mappers!
         Repository<WeatherDay> weatherRepo = new RepositoryCSV<>(",", new WeatherMapper());
         Repository<Country> countryRepo = new RepositoryCSV<>(";", new CountryMapper());
 
